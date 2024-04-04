@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package io.github.retrooper.packetevents.injector;
+package io.github.retrooper.packetevents.velocity.injector;
 
 import com.github.retrooper.packetevents.PacketEvents;
 import com.github.retrooper.packetevents.event.UserConnectEvent;
@@ -24,8 +24,8 @@ import com.github.retrooper.packetevents.event.UserDisconnectEvent;
 import com.github.retrooper.packetevents.protocol.ConnectionState;
 import com.github.retrooper.packetevents.protocol.player.User;
 import com.github.retrooper.packetevents.protocol.player.UserProfile;
-import io.github.retrooper.packetevents.handlers.PacketEventsDecoder;
-import io.github.retrooper.packetevents.handlers.PacketEventsEncoder;
+import io.github.retrooper.packetevents.velocity.handlers.PacketEventsDecoder;
+import io.github.retrooper.packetevents.velocity.handlers.PacketEventsEncoder;
 import io.netty.channel.Channel;
 
 public class ServerConnectionInitializer {

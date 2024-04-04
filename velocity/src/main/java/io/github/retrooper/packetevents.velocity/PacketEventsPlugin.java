@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package io.github.retrooper.packetevents;
+package io.github.retrooper.packetevents.velocity;
 
 import com.github.retrooper.packetevents.PacketEvents;
 import com.github.retrooper.packetevents.event.PacketListenerAbstract;
@@ -30,7 +30,7 @@ import com.velocitypowered.api.plugin.Plugin;
 import com.velocitypowered.api.plugin.PluginContainer;
 import com.velocitypowered.api.plugin.annotation.DataDirectory;
 import com.velocitypowered.api.proxy.ProxyServer;
-import io.github.retrooper.packetevents.velocity.factory.VelocityPacketEventsBuilder;
+import io.github.retrooper.packetevents.velocity.velocity.factory.VelocityPacketEventsBuilder;
 import org.slf4j.Logger;
 
 import java.nio.file.Path;

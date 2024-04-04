@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package io.github.retrooper.packetevents.velocity.factory;
+package io.github.retrooper.packetevents.velocity.velocity.factory;
 
 import com.github.retrooper.packetevents.PacketEvents;
 import com.github.retrooper.packetevents.PacketEventsAPI;
@@ -37,13 +37,13 @@ import com.velocitypowered.api.event.connection.PostLoginEvent;
 import com.velocitypowered.api.plugin.PluginContainer;
 import com.velocitypowered.api.proxy.Player;
 import com.velocitypowered.api.proxy.ProxyServer;
-import io.github.retrooper.packetevents.bstats.Metrics;
 import io.github.retrooper.packetevents.impl.netty.NettyManagerImpl;
 import io.github.retrooper.packetevents.impl.netty.manager.player.PlayerManagerAbstract;
 import io.github.retrooper.packetevents.impl.netty.manager.protocol.ProtocolManagerAbstract;
 import io.github.retrooper.packetevents.impl.netty.manager.server.ServerManagerAbstract;
-import io.github.retrooper.packetevents.injector.VelocityPipelineInjector;
-import io.github.retrooper.packetevents.manager.PlayerManagerImpl;
+import io.github.retrooper.packetevents.velocity.bstats.Metrics;
+import io.github.retrooper.packetevents.velocity.injector.VelocityPipelineInjector;
+import io.github.retrooper.packetevents.velocity.manager.PlayerManagerImpl;
 import net.kyori.adventure.text.format.NamedTextColor;
 import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package io.github.retrooper.packetevents.bstats;
+package io.github.retrooper.packetevents.velocity.bstats;
 
 import com.google.inject.Inject;
 import com.velocitypowered.api.plugin.PluginContainer;
